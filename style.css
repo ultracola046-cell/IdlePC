@@ -1,0 +1,150 @@
+html {
+    background-image: url(images/win7_login.jpg);
+    background-size: cover;
+}
+
+#main_window {
+    margin: 20px auto;
+    width: 700px;
+}
+
+#womburger_window {
+    margin: 20px auto;
+    width: 830px;
+}
+
+#logo {
+    max-height: 120px;
+    height: auto;
+    display: block;
+}
+
+#main_container {
+    position: relative;
+    min-height: 240px;
+}
+
+#sidebar_container {
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    /* place sidebar to the left of the centered main window:
+       calc(50% - half_main - sidebar_width - gap) */
+    left: calc(50% - 350px - 200px - 16px);
+}
+
+#right_sidebar_container {
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: calc(50% + 350px + 16px);
+}
+
+#womb_left_sidebar_container {
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    /* place sidebar to the left of the centered main window:
+       calc(50% - half_main - sidebar_width - gap) */
+    left: calc(50% - 350px - 270px - 16px);
+}
+
+#womb_right_sidebar_container {
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: calc(50% + 420px + 16px);
+}
+
+#sidebar, #right_sidebar {
+    margin-bottom: 10px;
+}
+
+#socials {
+    margin-bottom: 10px;
+}
+
+#social_icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+}
+
+#main_window p {
+    font-size: larger;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nyan-icon {
+    width: 128px;
+    height: auto;
+    display: block;
+}
+
+#sidebar .window-body a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#sidebar .window-body a img {
+    height: 30px;
+    width: auto;
+    display: block;
+    flex-shrink: 0;
+}
+
+#sidebar .window-body a span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#sidebar .window-body img {
+    display: block;
+    margin: 0;
+}
+
+#right_sidebar .window-body img {
+    display: block;
+    margin: 0;
+    width: auto;
+}
+
+#stamps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+#stamps img {
+  display: block;
+  max-height: 45px;
+  height: auto;
+}
+
+/*Custom cursor
+html, body {
+    cursor: url("win7cursor/Windows 7 (Vista) Normal Select.cur"), auto;
+}
+
+a, button {
+    cursor: url("win7cursor/Windows 7 (Vista) Link Select.cur"), pointer;
+}
+
+input, textarea {
+    cursor: url("win7cursor/Windows 7 (Vista) Text Select.cur"), text;
+}
+*/
